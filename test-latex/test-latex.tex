@@ -1,0 +1,48 @@
+% !TeX spellcheck = en_US
+%% Document class
+\documentclass[final,5p,times,twocolumn,authoryear]{elsarticle}
+
+\begin{document}
+	\begin{frontmatter}
+	\title{Test bibliography}
+	\author{Leonardo~Pedroso\fnref{addressTUe}} 
+	\ead{l.pedroso@tue.nl}
+	\address[addressTUe]{Control Systems Technology section, Eindhoven University of Technology, the Netherlands}
+	\cortext[correspondingAuthor]{Corresponding author.}
+\end{frontmatter}
+
+
+\section{2023}
+\subsection{Journal}
+\citep{PedrosoBatista2023DistributedEKF,PedrosoBatista2023DecentralizedMHE,PedrosoBatista2023DecentralizedLQR}
+\subsection{Preprint}
+\citep{PedrosoHeemelsEtAl2023KarmaParallel,PaparellaPedrosoEtAl2023TwoRide-pooling}
+
+
+
+\section{2022}
+\subsection{Journal}
+\citep{PedrosoBatista2022Quadruple-tank,PedrosoBatistaEtAl2022DistributedKalman,PedrosoArcoEtAl2022Spline}
+\subsection{Conference}
+\citep{PedrosoBatistaEtAl2022Saffron}
+\subsection{Preprint}
+\citep{PedrosoBatista2022DistributedRHC}
+\subsection{Thesis}
+\citep{Pedroso2022Thesis}
+
+\section{2021}
+\subsection{Journal}
+\citep{PedrosoBatista2021SignalControl,PedrosoBatista2021SparseEquation}
+
+\section{2019}
+\subsection{Conference}
+\citep{ArcoFigueirasEtAl2019Spline}
+
+%% Referencesr
+\bibliographystyle{elsarticle-harv} 
+\bibliography{../parsed-minimal/bibliography.bib}
+
+\end{document}
+\endinput
+
+
