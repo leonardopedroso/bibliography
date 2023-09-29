@@ -48,6 +48,42 @@
 
 ## 2023 ##
 
+@inproceedings{PedrosoHeemelsEtAl2023KarmaParallel,
+	author = {Leonardo Pedroso and {\relax W.P.M.H} Heemels and Mauro Salazar},
+	title = {Urgency-aware Routing in Single Origin-destination Itineraries through Artificial Currencies},
+	booktitle = {62nd IEEE Conference on Decision and Control},
+	year = {2023},
+	volume = {},
+	number = {},
+	pages = {},
+	doi = {10.48550/arXiv:2303.16945},
+	note = {in press},
+	url = {https://arxiv.org/abs/2303.16945},
+	keyworks = {},
+	abstract = {Within mobility systems, the presence of self-interested users can lead to aggregate routing patterns that are far from the societal optimum which could be achieved by centrally controlling the users' choices. In this paper, we design a fair incentive mechanism to steer the selfish behavior of the users to align with the societally optimal aggregate routing. The proposed mechanism is based on an artificial currency that cannot be traded or bought, but only spent or received when traveling. Specifically, we consider a parallel-arc network with a single origin and destination node within a repeated game setting whereby each user chooses from one of the available arcs to reach their destination on a daily basis. In this framework, taking faster routes comes at a cost, whereas taking slower routes is incentivized by a reward. The users are thus playing against their future selves when choosing their present actions. To capture this complex behavior, we assume the users to be rational and to minimize an urgency-weighted combination of their immediate and future discomfort. To design the optimal pricing, we first derive a closed-form expression for the best individual response strategy. Second, we formulate the pricing design problem for each arc to achieve the societally optimal aggregate flows, and reformulate it so that it can be solved with gradient-free optimization methods. Our numerical simulations show that it is possible to achieve a near-optimal routing whilst significantly reducing the users' perceived discomfort when compared to a centralized optimal but urgency-unaware policy.},
+	pdf = {https://arxiv.org/pdf/2303.16945.pdf},
+	github = {https://fish-tue.github.io/single-origin-destination-routing/},
+	author-str = {L. Pedroso, W.P.M.H Heemels and M. Salazar}
+}
+
+@inproceedings{PaparellaPedrosoEtAl2023TwoRide-pooling,
+	author = {Fabio Paparella and Leonardo Pedroso and Theo Hofman and Mauro Salazar},
+	title = {A Time-invariant Network Flow Model for Two-person Ride-pooling Mobility-on-Demand},
+	booktitle = {62nd IEEE Conference on Decision and Control (in press)},
+	year = {2023},
+	volume = {},
+	number = {},
+	pages = {},
+	doi = {10.48550/arXiv:2303.15051},
+	note = {in press},
+	url = {https://arxiv.org/abs/2303.15051},
+	keyworks = {},
+	abstract = {This paper presents a time-invariant network flow model capturing two-person ride-pooling that can be integrated within design and planning frameworks for Mobility-on-Demand systems. In these type of models, the arrival process of travel requests is described by a Poisson process, meaning that there is only statistical insight into request times, including the probability that two requests may be pooled together. Taking advantage of this feature, we devise a method to capture ride-pooling from a stochastic mesoscopic perspective. This way, we are able to transform the original set of requests into an equivalent set including pooled ones which can be integrated within standard network flow problems, which in turn can be efficiently solved with off-the-shelf LP solvers for a given ride-pooling request assignment. Thereby, to compute such an assignment, we devise a polynomial-time algorithm that is optimal w.r.t. an approximated version of the problem. Finally, we perform a case study of Sioux Falls, USA, where we quantify the effects that waiting time and experienced delay have on the vehicle-hours traveled. Our results suggest that the higher the demands per unit time, the lower the waiting time and delay experienced by users. In addition, for a sufficiently large number of demands per unit time, with a maximum waiting time and experienced delay of 5 minutes, more than 90% of the requests can be pooled.},
+	pdf = {https://arxiv.org/pdf/2303.15051.pdf},
+	github = {https://github.com/fabiopaparella/ride-pooling-MoD},
+	author-str = {F. Paparella, L. Pedroso, T. Hofman and M. Salazar}
+}
+
 @article{PedrosoBatista2023DistributedEKF,
 	author = {Leonardo Pedroso and Pedro Batista},
 	title = {Distributed decentralized {EKF} for very large-scale networks with application to satellite mega-constellations navigation},
@@ -63,40 +99,6 @@
 	pdf = {http://web.tecnico.ulisboa.pt/ist189691/publications/2023_03_pedroso_distributed_cep_goa.pdf},
 	github =  {https://decenter2021.github.io/examples/DDEKFStarlinkConstellation/},
 	author-str = {L. Pedroso and P. Batista}
-}
-
-@misc{PedrosoHeemelsEtAl2023KarmaParallel,
-	author = {Leonardo Pedroso and {\relax W.P.M.H} Heemels and Mauro Salazar},
-	title = {Urgency-aware Routing in Single Origin-destination Itineraries through Artificial Currencies},
-	note = {arXiv preprint arXiv:2303.16945},
-	year = {2023},
-	volume = {},
-	number = {},
-	pages = {},
-	doi = {10.48550/arXiv:2303.16945},
-	url = {https://arxiv.org/abs/2303.16945},
-	keyworks = {},
-	abstract = {Within mobility systems, the presence of self-interested users can lead to aggregate routing patterns that are far from the societal optimum which could be achieved by centrally controlling the users' choices. In this paper, we design a fair incentive mechanism to steer the selfish behavior of the users to align with the societally optimal aggregate routing. The proposed mechanism is based on an artificial currency that cannot be traded or bought, but only spent or received when traveling. Specifically, we consider a parallel-arc network with a single origin and destination node within a repeated game setting whereby each user chooses from one of the available arcs to reach their destination on a daily basis. In this framework, taking faster routes comes at a cost, whereas taking slower routes is incentivized by a reward. The users are thus playing against their future selves when choosing their present actions. To capture this complex behavior, we assume the users to be rational and to minimize an urgency-weighted combination of their immediate and future discomfort. To design the optimal pricing, we first derive a closed-form expression for the best individual response strategy. Second, we formulate the pricing design problem for each arc to achieve the societally optimal aggregate flows, and reformulate it so that it can be solved with gradient-free optimization methods. Our numerical simulations show that it is possible to achieve a near-optimal routing whilst significantly reducing the users' perceived discomfort when compared to a centralized optimal but urgency-unaware policy.},
-	pdf = {https://arxiv.org/pdf/2303.16945.pdf},
-	github = {https://fish-tue.github.io/single-origin-destination-routing/},
-	author-str = {L. Pedroso, W.P.M.H Heemels and M. Salazar}
-}
-
-@misc{PaparellaPedrosoEtAl2023TwoRide-pooling,
-	author = {Fabio Paparella and Leonardo Pedroso and Theo Hofman and Mauro Salazar},
-	title = {A Time-invariant Network Flow Model for Two-person Ride-pooling Mobility-on-Demand},
-	note = {arXiv preprint arXiv:2303.15051},
-	year = {2023},
-	volume = {},
-	number = {},
-	pages = {},
-	doi = {10.48550/arXiv:2303.15051},
-	url = {https://arxiv.org/abs/2303.15051},
-	keyworks = {},
-	abstract = {This paper presents a time-invariant network flow model capturing two-person ride-pooling that can be integrated within design and planning frameworks for Mobility-on-Demand systems. In these type of models, the arrival process of travel requests is described by a Poisson process, meaning that there is only statistical insight into request times, including the probability that two requests may be pooled together. Taking advantage of this feature, we devise a method to capture ride-pooling from a stochastic mesoscopic perspective. This way, we are able to transform the original set of requests into an equivalent set including pooled ones which can be integrated within standard network flow problems, which in turn can be efficiently solved with off-the-shelf LP solvers for a given ride-pooling request assignment. Thereby, to compute such an assignment, we devise a polynomial-time algorithm that is optimal w.r.t. an approximated version of the problem. Finally, we perform a case study of Sioux Falls, South Dakota, USA, where we quantify the effects that waiting time and experienced delay have on the vehicle-hours traveled. Our results suggest that the higher the demands per unit time, the lower the waiting time and delay experienced by users. In addition, for a sufficiently large number of demands per unit time, with a maximum waiting time and experienced delay of 5 minutes, more than 90% of the requests can be pooled.},
-	pdf = {https://arxiv.org/pdf/2303.15051.pdf},
-	github = {https://github.com/fabiopaparella/ride-pooling-MoD},
-	author-str = {F. Paparella, L. Pedroso, T. Hofman and M. Salazar}
 }
 
 @article{PedrosoBatista2023DecentralizedMHE,

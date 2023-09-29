@@ -12,9 +12,9 @@ def squash(s):
 def strEntryMinimal(entry,sep_cr,sep_tab):
     # Check entry type and format
     if entry.entry_type == "article":
-        format = ["author", "title", "journal", "year", "volume", "number", "pages", "doi"]
+        format = ["author", "title", "journal", "year", "volume", "number", "pages", "doi", "note"]
     elif entry.entry_type == "inproceedings":
-        format = ["author", "title", "booktitle", "year", "volume", "number", "pages", "doi"]
+        format = ["author", "title", "booktitle", "year", "volume", "number", "pages", "doi", "note"]
     elif entry.entry_type == "misc":
         format = ["author", "title", "note", "year", "volume", "number", "pages", "doi"]
     elif entry.entry_type == "mastersthesis":
@@ -25,17 +25,17 @@ def strEntryMinimal(entry,sep_cr,sep_tab):
         if field.key in format:
             values[format.index(field.key)] = field.value
     # Print
-    str = ['@', entry.entry_type, '{', entry.key, ',', sep_cr]
+    str = ['@', entry.entry_type, '{', entry.key]
     for i in range(len(format)):
-        str.append(sep_tab)
-        str.append(format[i])
-        str.append(' = {')
-        str.append(values[i])
-        str.append('}');
-        if i < len(format) - 1:
+        if values[i] != "":
             str.append(',')
-        str.append(sep_cr)
-    str.append('}')
+            str.append(sep_cr)
+            str.append(sep_tab)
+            str.append(format[i])
+            str.append(' = {')
+            str.append(values[i])
+            str.append('}');
+    str.append('\n}')
     str = squash(str)
     return str
 
@@ -47,9 +47,9 @@ def printEntryMinimal(file,entry):
 def printEntryWebsite(file,entry):
     # Check entry type and format
     if entry.entry_type == "article":
-        format = ["author-str", "title", "journal", "year", "volume", "number", "pages", "doi", "url", "abstract", "pdf", "github", "video"]
+        format = ["author-str", "title", "journal", "year", "volume", "number", "pages", "doi", "url", "abstract", "pdf", "github", "video", "note"]
     elif entry.entry_type == "inproceedings":
-        format = ["author-str", "title", "booktitle", "year", "volume", "number", "pages", "doi", "url", "abstract", "pdf", "github", "video"]
+        format = ["author-str", "title", "booktitle", "year", "volume", "number", "pages", "doi", "url", "abstract", "pdf", "github", "video", "note"]
     elif entry.entry_type == "misc":
         format = ["author-str", "title", "note", "year", "volume", "number", "pages", "doi", "url", "abstract", "pdf", "github", "video"]
     elif entry.entry_type == "mastersthesis":
@@ -72,7 +72,7 @@ def printEntryWebsite(file,entry):
     str_citation.append("'</b>, <i>");
     str_citation.append(values[2].replace("{","").replace("}",""));
     str_citation.append("</i>")
-    if entry.entry_type == "article" or entry.entry_type == "article" or entry.entry_type == "misc":
+    if entry.entry_type == "article" or entry.entry_type == "inproceedings" or entry.entry_type == "misc":
         if values[4] != "":
             str_citation.append(", vol. {}".format(values[4]))
         if values[5] != "":
@@ -82,6 +82,9 @@ def printEntryWebsite(file,entry):
     str_citation.append(", {}.".format(values[3]))
     if values[7] != "":
         str_citation.append(" doi: {}.".format(values[7]))
+    if entry.entry_type == "article" or entry.entry_type == "inproceedings":
+        if values[13] != "":
+            str_citation.append(" <i>({})</i>".format(values[13]))
     str_citation = squash(str_citation)
     str_bibtex = strEntryMinimal(entry,"<br>","")
 

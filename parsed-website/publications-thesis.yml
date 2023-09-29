@@ -3,6 +3,7 @@
   pdf: https://scholar.tecnico.ulisboa.pt/api/records/E40NDMJdlf46B_mgxo_6SDiAH6GJH_UeJaVk/file/3788c41732f614debc1aba647e2b34d377d7e7ace008c110d11dd40ad3539146.pdf
   github: https://decenter2021.github.io/examples/DDRHCStarlink/
   video: https://www.youtube.com/watch?v=psfW6-85lr0
-  bibtex: "@mastersthesis{Pedroso2022Thesis,<br>author = {Leonardo Pedroso},<br>title = {Distributed decentralized control for very large-scale systems with application to {LEO} satellite mega-constellations},<br>year = {2022},<br>school = {Instituto Superior Técnico, University of Lisbon}<br>}"
+  bibtex: "@mastersthesis{Pedroso2022Thesis,<br>author = {Leonardo Pedroso},<br>title = {Distributed decentralized control for very large-scale systems with application to {LEO} satellite mega-constellations},<br>year = {2022},<br>school = {Instituto Superior Técnico, University of Lisbon}
+}"
 
 
