@@ -87,7 +87,7 @@ def printEntryWebsite(file,entry):
         if values[13] != "":
             str_citation.append(" <i>({})</i>".format(values[13]))
     str_citation = squash(str_citation)
-    str_bibtex = strEntryMinimal(entry,"<br>","")
+    str_bibtex = strEntryMinimal(entry,"<br>","").replace("\\","\\\\")
 
     str = ["- citation: \"{}\"\n".format(str_citation)]
     if values[8] != "":
