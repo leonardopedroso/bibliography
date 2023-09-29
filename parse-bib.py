@@ -35,7 +35,8 @@ def strEntryMinimal(entry,sep_cr,sep_tab):
             str.append(' = {')
             str.append(values[i])
             str.append('}');
-    str.append('\n}')
+    str.append(sep_cr)
+    str.append('}')
     str = squash(str)
     return str
 

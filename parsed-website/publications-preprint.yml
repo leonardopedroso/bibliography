@@ -4,7 +4,6 @@
   pdf: https://arxiv.org/pdf/2303.15051.pdf
   github: https://decenter2021.github.io/examples/DDRHCStarlink/
   video: https://youtu.be/psfW6-85lr0
-  bibtex: "@misc{PedrosoBatista2022DistributedRHC,<br>author = {Leonardo Pedroso and Pedro Batista},<br>title = {Distributed decentralized receding horizon control for very large-scale networks with application to {LEO} satellite mega-constellations},<br>note = {arXiv preprint arXiv:2303.15051},<br>year = {2022},<br>doi = {10.48550/arXiv:2209.14951}
-}"
+  bibtex: "@misc{PedrosoBatista2022DistributedRHC,<br>author = {Leonardo Pedroso and Pedro Batista},<br>title = {Distributed decentralized receding horizon control for very large-scale networks with application to {LEO} satellite mega-constellations},<br>note = {arXiv preprint arXiv:2303.15051},<br>year = {2022},<br>doi = {10.48550/arXiv:2209.14951}<br>}"
 
 
