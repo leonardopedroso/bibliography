@@ -1,2 +1,4 @@
 /test-latex
 *.DS_Store
+/venv
+run_venv.txt
