@@ -26,13 +26,57 @@
 
 ##### Bibtext entries #####
 
-## 2025 ##
+@Misc{PedrosoBatistaEtAl2026UnificationCI,
+  	author    = {L. Pedroso and W. P. M. H. Heemels and P. Batista},
+  	title     = {A Unified Family-optimal Solution to Covariance Intersection Problems with Semidefinite Programming},
+  	note      = {arXiv preprint arXiv:2603.20402},
+  	year      = {2026},
+  	doi       = {10.48550/arXiv.2603.20402}, 
+  	url = {https://arxiv.org/abs/2603.20402},
+	keywords	 = {},
+	abstract = {Covariance intersection (CI) methods provide a principled approach to fusing estimates with unknown cross-correlations by minimizing a worst-case measure of uncertainty that is consistent with the available information. This paper introduces a generalized CI framework, called overlapping covariance intersection (OCI), which unifies several existing CI formulations within a single optimization-based framework. This unification enables the characterization of family-optimal solutions for multiple CI variants, including standard CI and split covariance intersection (SCI), as solutions to a semidefinite program, for which efficient off-the-shelf solvers are available. When specialized to the corresponding settings, the proposed family-optimal solutions recover the state-of-the-art family-optimal solutions previously reported for CI and SCI. The resulting formulation facilitates the systematic design and real-time implementation of CI-based fusion methods in large-scale distributed estimation problems, such as cooperative localization.},
+	pdf = {https://arxiv.org/pdf/2603.20402},
+	github = {https://github.com/decenter2021/https://github.com/decenter2021/unification-CI},
+	author-str = {L. Pedroso, W.P.M.H. Heemels and P. Batista}
+}
 
-@misc{PedrosoAgazziEtAl2025MFGDiscExtended,
+@Misc{PedrosoBatistaEtAl2026OCI,
+  	author    = {L. Pedroso and P. Batista and W. P. M. H. Heemels},
+  	title     = {Overlapping Covariance Intersection: Fusion with Partial Structural Knowledge of Correlation from Multiple Sources},
+  	note      = {arXiv preprint arXiv:2603.16768},
+  	year      = {2026},
+  	doi       = {10.48550/arXiv.2603.16768},
+  	url = {https://arxiv.org/abs/2603.16768},
+	keywords	 = {},
+	abstract = {Emerging large-scale engineering systems rely on distributed fusion for situational awareness, where agents combine noisy local sensor measurements with exchanged information to obtain fused estimates. However, at the sheer scale of these systems, tracking cross-correlations becomes infeasible, preventing the use of optimal filters. Covariance intersection (CI) methods address fusion problems with unknown correlations by minimizing worst-case uncertainty based on available information. Existing CI extensions exploit limited correlation knowledge but cannot incorporate structural knowledge of correlation from multiple sources, which naturally arises in distributed fusion problems. This paper introduces Overlapping Covariance Intersection (OCI), a generalized CI framework that accommodates this novel information structure. We formalize the OCI problem and establish necessary and sufficient conditions for feasibility. We show that a family-optimal solution can be computed efficiently via semidefinite programming, enabling real-time implementation. The proposed tools enable improved fusion performance for large-scale systems while retaining robustness to unknown correlations.},
+	pdf = {https://arxiv.org/pdf/2603.16768},
+	github = {https://github.com/decenter2021/OCI},
+	author-str = {L. Pedroso, P. Batista and W.P.M.H. Heemels}
+}
+
+@misc{PedrosoAgazziEtAl2026TokenEconomy,
+	author = {L. Pedroso and A. Agazzi and W. P. M. H. Heemels and M. Salazar},
+	title = {Token Economy for Fair and Efficient Dynamic Resource Allocation in Congestion Games},
+	note = {arXiv preprint arXiv:2603.18094},
+	year = {2026},
+	doi = {10.48550/arXiv.2603.18094},
+	url = {https://arxiv.org/abs/2603.18094},
+	keyworks = {},
+	abstract = {Self-interested behavior in sharing economies often leads to inefficient aggregate outcomes compared to a centrally coordinated allocation, ultimately harming users. Yet, centralized coordination removes individual decision power. This issue can be addressed by designing rules that align individual preferences with system-level objectives. Unfortunately, rules based on conventional monetary mechanisms introduce unfairness by discriminating among users based on their wealth. To solve this problem, in this paper, we propose a token-based mechanism for congestion games that achieves efficient and fair dynamic resource allocation. Specifically, we model the token economy as a continuous-time dynamic game with finitely many boundedly rational agents, explicitly capturing their evolutionary policy-revision dynamics. We derive a mean-field approximation of the finite-population game and establish strong approximation guarantees between the mean-field and the finite-population games. This approximation enables the design of integer tolls in closed form that provably steer the aggregate dynamics toward an optimal efficient and fair allocation from any initial condition.},
+	pdf = {https://arxiv.org/pdf/2603.18094},
+	github = {https://github.com/fish-tue/token-economy},
+	author-str = {L. Pedroso, A. Agazzi, W.P.M.H. Heemels and M. Salazar}
+}
+
+@inproceedings{PedrosoAgazziEtAl2026MFGDisc,
 	author = {L. Pedroso and A. Agazzi and W. P. M. H. Heemels and M. Salazar},
 	title = {Evolutionary Analysis of Continuous-time Finite-state Mean Field Games with Discounted Payoffs},
-	note = {arXiv preprint arXiv:2511.07655},
-	year = {2025},
+	booktitle = {2026 European Control Conference (ECC)},
+	volume = {},
+	number = {},
+	pages = {},
+	note = {arXiv preprint arXiv:2511.07655 (accepted for presentation)},
+	year = {2026},
 	doi = {10.48550/arXiv.2511.07655},
 	url = {https://arxiv.org/abs/2511.07655},
 	keyworks = {},
@@ -42,6 +86,7 @@
 	author-str = {L. Pedroso, A. Agazzi, W.P.M.H. Heemels and M. Salazar}
 }
 
+## 2025 ##
 
 @misc{PedrosoAgazziEtAl2025MFGAvgII,
 	author = {L. Pedroso and A. Agazzi and W. P. M. H. Heemels and M. Salazar},

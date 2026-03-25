@@ -1,4 +1,4 @@
-\begin{thebibliography}{14}
+\begin{thebibliography}{13}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -15,24 +15,24 @@
 \bibitem[{Arco et~al.(2019)Arco, Figueiras, Pedroso, {Araújo dos Santos},
   Fernandes and Lopes}]{ArcoFigueirasEtAl2019Spline}
 \bibinfo{author}{Arco, A.}, \bibinfo{author}{Figueiras, I.},
-  \bibinfo{author}{Pedroso, L.}, \bibinfo{author}{{Araújo dos Santos}, {\relax
-  J.V}.}, \bibinfo{author}{Fernandes, {\relax J.L.M}.}, \bibinfo{author}{Lopes,
-  H.}, \bibinfo{year}{2019}.
+  \bibinfo{author}{Pedroso, L.}, \bibinfo{author}{{Araújo dos Santos}, J.V.},
+  \bibinfo{author}{Fernandes, J.L.M.}, \bibinfo{author}{Lopes, H.},
+  \bibinfo{year}{2019}.
 \newblock \bibinfo{title}{Application of spline interpolation to speckle
   shearography measurements for damage identification}, in:
   \bibinfo{booktitle}{3rd International Conference on Structural Integrity
   (ICSI 2019)}, pp. \bibinfo{pages}{718--725}.
 \newblock \DOIprefix\doi{10.1016/j.prostr.2019.08.096}.
-%Type = Misc
+%Type = Inproceedings
 \bibitem[{Paparella et~al.(2023)Paparella, Pedroso, Hofman and
   Salazar}]{PaparellaPedrosoEtAl2023TwoRide-pooling}
 \bibinfo{author}{Paparella, F.}, \bibinfo{author}{Pedroso, L.},
   \bibinfo{author}{Hofman, T.}, \bibinfo{author}{Salazar, M.},
   \bibinfo{year}{2023}.
 \newblock \bibinfo{title}{A time-invariant network flow model for two-person
-  ride-pooling mobility-on-demand}.
-\newblock \DOIprefix\doi{10.48550/arXiv:2303.15051}. \bibinfo{note}{arXiv
-  preprint arXiv:2303.15051}.
+  ride-pooling mobility-on-demand}, in: \bibinfo{booktitle}{62nd IEEE
+  Conference on Decision and Control}, pp. \bibinfo{pages}{4118--4123}.
+\newblock \DOIprefix\doi{10.1109/CDC49753.2023.10384279}.
 %Type = Masterthesis
 \bibitem[{Pedroso(2022)}]{Pedroso2022Thesis}
 \bibinfo{author}{Pedroso, L.}, \bibinfo{year}{2022}.
@@ -43,9 +43,9 @@
 \bibitem[{Pedroso et~al.(2022a)Pedroso, Arco, Figueiras, dos Santos, Fernandes
   and Lopes}]{PedrosoArcoEtAl2022Spline}
 \bibinfo{author}{Pedroso, L.}, \bibinfo{author}{Arco, A.},
-  \bibinfo{author}{Figueiras, I.}, \bibinfo{author}{dos Santos, {\relax
-  J.V.A}.}, \bibinfo{author}{Fernandes, {\relax J.L.M}.},
-  \bibinfo{author}{Lopes, H.}, \bibinfo{year}{2022}a.
+  \bibinfo{author}{Figueiras, I.}, \bibinfo{author}{dos Santos, J.V.A.},
+  \bibinfo{author}{Fernandes, J.L.M.}, \bibinfo{author}{Lopes, H.},
+  \bibinfo{year}{2022}a.
 \newblock \bibinfo{title}{Application of cubic spline interpolation with
   optimal spatial sampling for damage identification}.
 \newblock \bibinfo{journal}{Structural Control and Health Monitoring}
@@ -68,19 +68,10 @@
   solution to a sparse matrix equation in distributed control theory}.
 \newblock \bibinfo{journal}{Mathematics} \bibinfo{volume}{9}.
 \newblock \DOIprefix\doi{10.3390/math9131497}.
-%Type = Misc
-\bibitem[{Pedroso and Batista(2022a)}]{PedrosoBatista2022DistributedRHC}
-\bibinfo{author}{Pedroso, L.}, \bibinfo{author}{Batista, P.},
-  \bibinfo{year}{2022}a.
-\newblock \bibinfo{title}{Distributed decentralized receding horizon control
-  for very large-scale networks with application to {LEO} satellite
-  mega-constellations}.
-\newblock \DOIprefix\doi{10.48550/arXiv:2209.14951}. \bibinfo{note}{arXiv
-  preprint arXiv:2303.15051}.
 %Type = Article
-\bibitem[{Pedroso and Batista(2022b)}]{PedrosoBatista2022Quadruple-tank}
+\bibitem[{Pedroso and Batista(2022)}]{PedrosoBatista2022Quadruple-tank}
 \bibinfo{author}{Pedroso, L.}, \bibinfo{author}{Batista, P.},
-  \bibinfo{year}{2022}b.
+  \bibinfo{year}{2022}.
 \newblock \bibinfo{title}{Reproducible low-cost flexible quadruple-tank process
   experimental setup for control educators, practitioners, and researchers}.
 \newblock \bibinfo{journal}{Journal of Process Control} \bibinfo{volume}{118},
@@ -92,8 +83,9 @@
   \bibinfo{year}{2023}a.
 \newblock \bibinfo{title}{Decentralized moving horizon estimation for
   large-scale networks of interconnected unconstrained linear systems}.
-\newblock \bibinfo{journal}{IEEE Transactions on Control of Network Systems} ,
-  \bibinfo{pages}{1--12}\DOIprefix\doi{10.1109/TCNS.2023.3244086}.
+\newblock \bibinfo{journal}{IEEE Transactions on Control of Network Systems}
+  \bibinfo{volume}{10}, \bibinfo{pages}{1855--1866}.
+\newblock \DOIprefix\doi{10.1109/TCNS.2023.3244086}.
 %Type = Article
 \bibitem[{Pedroso and Batista(2023b)}]{PedrosoBatista2023DecentralizedLQR}
 \bibinfo{author}{Pedroso, L.}, \bibinfo{author}{Batista, P.},
@@ -118,7 +110,7 @@
 \bibinfo{author}{Pedroso, L.}, \bibinfo{author}{Batista, P.},
   \bibinfo{author}{Oliveira, P.}, \bibinfo{author}{Silvestre, C.},
   \bibinfo{year}{2022}b.
-\newblock \bibinfo{title}{Discrete-time distributed kalman filter design for
+\newblock \bibinfo{title}{Discrete-time distributed {Kalman} filter design for
   networks of interconnected systems with linear time-varying dynamics}.
 \newblock \bibinfo{journal}{International Journal of Systems Science}
   \bibinfo{volume}{53}, \bibinfo{pages}{1334--1351}.
@@ -129,19 +121,19 @@
 \bibinfo{author}{Pedroso, L.}, \bibinfo{author}{Batista, P.},
   \bibinfo{author}{Papageorgiou, M.}, \bibinfo{author}{Kosmatopoulos, E.},
   \bibinfo{year}{2022}c.
-\newblock \bibinfo{title}{{SAFFRON}: Store-and-forward model toolbox for urban
-  road network signal control in matlab}, in: \bibinfo{booktitle}{2022 IEEE
-  25th International Conference on Intelligent Transportation Systems (ITSC)},
-  pp. \bibinfo{pages}{3698--3703}.
+\newblock \bibinfo{title}{{SAFFRON}: {Store-And-Forward} model toolbox {For}
+  urban {ROad} {Network} signal control in {MATLAB}}, in:
+  \bibinfo{booktitle}{2022 IEEE 25th International Conference on Intelligent
+  Transportation Systems (ITSC)}, pp. \bibinfo{pages}{3698--3703}.
 \newblock \DOIprefix\doi{10.1109/ITSC55140.2022.9922508}.
-%Type = Misc
+%Type = Inproceedings
 \bibitem[{Pedroso et~al.(2023)Pedroso, Heemels and
   Salazar}]{PedrosoHeemelsEtAl2023KarmaParallel}
-\bibinfo{author}{Pedroso, L.}, \bibinfo{author}{Heemels, {\relax W.P.M.H}.},
+\bibinfo{author}{Pedroso, L.}, \bibinfo{author}{Heemels, W.P.M.H.},
   \bibinfo{author}{Salazar, M.}, \bibinfo{year}{2023}.
 \newblock \bibinfo{title}{Urgency-aware routing in single origin-destination
-  itineraries through artificial currencies}.
-\newblock \DOIprefix\doi{10.48550/arXiv:2303.16945}. \bibinfo{note}{arXiv
-  preprint arXiv:2303.16945}.
+  itineraries through artificial currencies}, in: \bibinfo{booktitle}{62nd IEEE
+  Conference on Decision and Control}, pp. \bibinfo{pages}{4142--4149}.
+\newblock \DOIprefix\doi{10.1109/CDC49753.2023.10383739}.
 
 \end{thebibliography}

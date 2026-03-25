@@ -1,31 +1,27 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.10)  16 AUG 2023 18:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.10)  25 MAR 2026 10:11
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**test-latex.tex
-(./test-latex.tex
+**/Users/leonardopedroso/Documents/Research/Publications/bibliography/test-latex/test-latex.tex
+(/Users/leonardopedroso/Documents/Research/Publications/bibliography/test-latex/test-latex.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
-(/usr/local/texlive/2022/texmf-dist/tex/latex/elsarticle/elsarticle.cls
+L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/elsarticle/elsarticle.cls
 Document Class: elsarticle 2020/11/20, 3.3: Elsevier Ltd
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2022-02-24 L3 programming layer (loader) 
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count185
 \l__pdf_internal_box=\box50
-))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2022-01-12 L3 Experimental document command parser
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count186
 )
 \@bls=\dimen138
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
@@ -41,26 +37,20 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen139
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen140
@@ -85,9 +75,7 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \@enLab=\toks18
 \@sep=\skip49
 \@@sep=\skip50
-
-(./test-latex.spl)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty
+ (./test-latex.spl) (/usr/local/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip51
 \bibsep=\skip52
@@ -97,14 +85,11 @@ LaTeX Info: Redefining \cite on input line 694.
 \splwrite=\write3
 \openout3 = `test-latex.spl'.
 
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count268
@@ -119,8 +104,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen151
 \Gm@layoutvoffset=\dimen152
 \Gm@dimlist=\toks19
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/fleqn.clo
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/fleqn.clo
 File: fleqn.clo 2016/12/29 v1.2b Standard LaTeX option (flush left equations)
 \mathindent=\skip53
 Applying: [2015/01/01] Make \[ robust on input line 50.
@@ -131,8 +115,7 @@ LaTeX Info: Redefining \] on input line 75.
 Already applied: [0000/00/00] Make \] robust on input line 83.
 )
 \appnamewidth=\dimen153
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/txfonts.sty
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -210,28 +193,21 @@ LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 591.
 LaTeX Info: Redefining \not on input line 1043.
 )
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5
-.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/ot1txr.fd
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-(./test-latex.aux)
+) (./test-latex.aux)
 \openout1 = `test-latex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 5.
-LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-5.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/omltxmi.fd
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 5.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 5.
-LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-5.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/omstxsy.fd
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 5.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 5.
@@ -242,23 +218,18 @@ LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 5.
-LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-5.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/omxtxex.fd
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 5.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 5.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 5
-.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/utxexa.fd
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 5.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 5.
-
-(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count271
 \scratchdimen=\dimen154
@@ -273,12 +244,9 @@ LaTeX Font Info:    ... okay on input line 5.
 \everyMPtoPDFconversion=\toks21
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -316,99 +284,73 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
-2.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 12.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 1
-2.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/utxsya.fd
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 12.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 1
-2.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/utxsyb.fd
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 12.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
-2.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/utxsyc.fd
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 12.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 15.
 
+
+Package natbib Warning: Citation `PedrosoBatista2022DistributedRHC' on page 1 undefined on input line 29.
+
 (./test-latex.bbl
-Underfull \hbox (badness 1168) in paragraph at lines 17--28
-[]\OT1/txr/m/n/8 Arco, A., Figueiras, I., Pe-droso, L., Ara[]ujo dos San-tos, J
-.V., Fer-nan-
+Underfull \hbox (badness 1281) in paragraph at lines 17--28
+[]\OT1/txr/m/n/8 Arco, A., Figueiras, I., Pe-droso, L., Ara[]ujo dos San-tos, J.V., Fer-nan-
  []
 
 
 Underfull \hbox (badness 1377) in paragraph at lines 29--37
-\OT1/txr/m/n/8 net-work flow model for two-person ride-pooling mobility-on-dema
-nd.
+\OT1/txr/m/n/8 net-work flow model for two-person ride-pooling mobility-on-demand,
  []
 
 
-Underfull \hbox (badness 5817) in paragraph at lines 82--90
-\OT1/txr/m/n/8 tank pro-cess ex-per-i-men-tal setup for con-trol ed-u-ca-tors, 
-prac-ti-tion-
+Underfull \hbox (badness 5817) in paragraph at lines 73--81
+\OT1/txr/m/n/8 tank pro-cess ex-per-i-men-tal setup for con-trol ed-u-ca-tors, prac-ti-tion-
  []
 
 
-Underfull \hbox (badness 5607) in paragraph at lines 82--90
-\OT1/txr/m/n/8 ers, and re-searchers.  Jour-nal of Pro-cess Con-trol 118, 82--9
-4.
+Underfull \hbox (badness 5607) in paragraph at lines 73--81
+\OT1/txr/m/n/8 ers, and re-searchers.  Jour-nal of Pro-cess Con-trol 118, 82--94.
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 91--98
-[]\OT1/txr/m/n/8 Pedroso, L., Batista, P., 2023a.  De-cen-tral-ized mov-ing hor
-i-zon es-ti-
+Underfull \hbox (badness 10000) in paragraph at lines 100--109
+[]\OT1/txr/m/n/8 Pedroso, L., Batista, P., 2023c.  Dis-tributed de-cen-tral-ized EKF
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 91--98
-\OT1/txr/m/n/8 sys-tems.  IEEE Trans-ac-tions on Con-trol of Net-work Sys-tems 
-, 1--
+Underfull \hbox (badness 6236) in paragraph at lines 100--109
+\OT1/txr/m/n/8 for very large-scale net-works with ap-pli-ca-tion to satel-lite mega-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--117
-[]\OT1/txr/m/n/8 Pedroso, L., Batista, P., 2023c.  Dis-tributed de-cen-tral-ize
-d EKF
+Underfull \hbox (badness 1314) in paragraph at lines 121--131
+[]\OT1/txr/m/n/8 Pedroso, L., Batista, P., Pa-pa-geor-giou, M., Kos-matopou-los, E., 2022c.
  []
 
 
-Underfull \hbox (badness 6236) in paragraph at lines 108--117
-\OT1/txr/m/n/8 for very large-scale net-works with ap-pli-ca-tion to satel-lite
- mega-
- []
-
-
-Underfull \hbox (badness 1314) in paragraph at lines 129--139
-[]\OT1/txr/m/n/8 Pedroso, L., Batista, P., Pa-pa-geor-giou, M., Kos-matopou-los
-, E., 2022c.
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 129--139
-\OT1/txr/m/n/8 SAF-FRON: Store-and-forward model tool-box for ur-ban road net-w
-ork
- []
-
-
-Underfull \hbox (badness 3148) in paragraph at lines 129--139
-\OT1/txr/m/n/8 sig-nal con-trol in mat-lab, in: 2022 IEEE 25th In-ter-na-tional
- Con-
+Underfull \hbox (badness 1231) in paragraph at lines 121--131
+\OT1/txr/m/n/8 sig-nal con-trol in MAT-LAB, in: 2022 IEEE 25th In-ter-na-tional Con-
  []
 
 )
+
+Package natbib Warning: There were undefined citations.
+
+
 Overfull \hbox (1.90001pt too wide) has occurred while \output is active
 [] 
  []
@@ -416,24 +358,17 @@ Overfull \hbox (1.90001pt too wide) has occurred while \output is active
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-(./test-latex.aux) ) 
+] (./test-latex.aux) ) 
 Here is how much of TeX's memory you used:
- 4276 strings out of 478268
- 62259 string characters out of 5846346
- 362064 words of memory out of 5000000
- 22437 multiletter control sequences out of 15000+600000
+ 4273 strings out of 478268
+ 62360 string characters out of 5846346
+ 361023 words of memory out of 5000000
+ 22433 multiletter control sequences out of 15000+600000
  497875 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,7n,76p,205b,248s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r
-.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.p
-fb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local
-/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2
-022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on test-latex.pdf (1 page, 55446 bytes).
+ 70i,7n,76p,284b,248s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on test-latex.pdf (1 page, 55938 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
