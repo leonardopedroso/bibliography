@@ -26,13 +26,30 @@
 
 ##### Bibtext entries #####
 
-@Misc{PedrosoBatistaEtAl2026UnificationCI,
+@misc{PedrosoBertuciiEtAl2026ExpressLaneTokenEconomy,
+	author = {L. Pedroso and J. P. Bertucci and W. P. M. H. Heemels and M. Salazar},
+	title = {Token Economy Design for Fair and Efficient Highway Congestion Management with Express Lanes},
+	note = {(under review)},
+	year = {2026},
+	doi = {},
+	url = {},
+	keyworks = {},
+	abstract = {We study the design of a token economy for highway lane allocation that aims to improve fairness without sacrificing traffic efficiency. Motivated by the San Mateo 101 Express Lanes Project, we consider a setting in which high-occupancy vehicles have unrestricted access to an express lane, while the remaining users can alternate between regular and express lanes by earning and spending nonmonetary tokens. We model the resulting interaction as a finite-population dynamic congestion game with heterogeneous time preferences and limited-information evolutionary policy revisions. Building on a mean-field approximation, we derive token prices that enforce the system-optimal lane split while inducing fairness over time through turn-taking. The scheme is evaluated in a microscopic traffic simulation with real-world demand data. The results show that the proposed prices yield nearly the same average travel time as a baseline scenario in which no lane is reserved as an express lane, while substantially reducing urgency-weighted perceived travel time. These findings highlight token economies as a promising alternative to monetary congestion pricing for fairer management of scarce road capacity.},
+	pdf = {},
+	github = {https://github.com/fish-tue/express-lane-token-economy},
+	author-str = {L. Pedroso, J.P. Bertucci, W.P.M.H. Heemels and M. Salazar}
+}
+
+@article{PedrosoBatistaEtAl2026UnificationCI,
   	author    = {L. Pedroso and W. P. M. H. Heemels and P. Batista},
   	title     = {A Unified Family-optimal Solution to Covariance Intersection Problems with Semidefinite Programming},
-  	note      = {arXiv preprint arXiv:2603.20402},
-  	year      = {2026},
-  	doi       = {10.48550/arXiv.2603.20402}, 
-  	url = {https://arxiv.org/abs/2603.20402},
+  	journal      = {IEEE Control Systems Letters},
+	year={2026},
+  	volume={10},
+  	number={},
+  	pages={1753-1758},
+  	doi       = {10.1109/LCSYS.2026.3698437}, 
+  	url = {https://ieeexplore.ieee.org/abstract/document/11541199},
 	keywords	 = {},
 	abstract = {Covariance intersection (CI) methods provide a principled approach to fusing estimates with unknown cross-correlations by minimizing a worst-case measure of uncertainty that is consistent with the available information. This paper introduces a generalized CI framework, called overlapping covariance intersection (OCI), which unifies several existing CI formulations within a single optimization-based framework. This unification enables the characterization of family-optimal solutions for multiple CI variants, including standard CI and split covariance intersection (SCI), as solutions to a semidefinite program, for which efficient off-the-shelf solvers are available. When specialized to the corresponding settings, the proposed family-optimal solutions recover the state-of-the-art family-optimal solutions previously reported for CI and SCI. The resulting formulation facilitates the systematic design and real-time implementation of CI-based fusion methods in large-scale distributed estimation problems, such as cooperative localization.},
 	pdf = {https://arxiv.org/pdf/2603.20402},
@@ -40,10 +57,11 @@
 	author-str = {L. Pedroso, W.P.M.H. Heemels and P. Batista}
 }
 
-@Misc{PedrosoBatistaEtAl2026OCI,
+@article{PedrosoBatistaEtAl2026OCI,
   	author    = {L. Pedroso and P. Batista and W. P. M. H. Heemels},
   	title     = {Overlapping Covariance Intersection: Fusion with Partial Structural Knowledge of Correlation from Multiple Sources},
-  	note      = {arXiv preprint arXiv:2603.16768},
+	journal   = {IEEE Transactions on Automatic Control},
+  	note      = {(conditionally accepted)},
   	year      = {2026},
   	doi       = {10.48550/arXiv.2603.16768},
   	url = {https://arxiv.org/abs/2603.16768},
