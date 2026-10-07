@@ -1,8 +1,7 @@
-/test-latex
 *.DS_Store
+*.log
 /venv
 run_venv.txt
-
 
 /pdf
 
