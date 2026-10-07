@@ -2,3 +2,12 @@
 *.DS_Store
 /venv
 run_venv.txt
+
+
+/pdf
+
+CLAUDE.md
+/.claude
+
+
+
